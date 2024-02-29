@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="semantic.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+
+    <div class="div1">
+        <div class="start">
+            <div>
+                <span>Previous Date :</span>
+                <input id="start-date" type="date">
+            </div>
+            <div>
+                <span>Previous Units :</span>
+                <input id="starting-units" type="number">
+            </div>
+        </div>
+
+        <div class="current">
+            <div>
+                <span>Current Date :</span>
+                <input id="current-date" type="date">
+            </div>
+            <div>
+                <span>Current Units :</span>
+                <input id="current-units" type="number">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="div2">
+
+        <div class="button-div">
+            <button class="ui inverted black button" id="button" onclick="calculate()">Calculate The Bill</button>
+            <button id="tryAgain" class="ui inverted black button" onclick="tryAgain()">Try Again</button>
+        </div>
+
+        <div class="div" id="div"></div>
+        <div class="div" id="div-1"></div>
+
+        <p>
+            Your Electricity Bill Is : Rs.
+            <span id="bill"></span>
+        </p>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
