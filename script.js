@@ -320,4 +320,6 @@ function tryAgain() {
     document.getElementById("div").innerHTML = "";
     document.getElementById("div-1").innerHTML = "";
 
+    document.getElementById("bill").innerHTML = "";
+
 }
