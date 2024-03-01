@@ -1,5 +1,10 @@
 * {
-    font-family: cursive;
+    font-family: mydocumentfont;
+}
+
+@font-face {
+    font-family: mydocumentfont;
+    src: url("ComicSansMS3.ttf");
 }
 
 .body {
